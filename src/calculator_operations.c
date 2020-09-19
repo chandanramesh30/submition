@@ -276,5 +276,13 @@ int subtractor3bit(int operand1, int operand2, int operand3)
         }
     }
 }
-    
+
+int metretokilometer(int  operand1)
+{
+    if(operand1 < 0)
+    {
+        return -1;
+    }
+    return (operand1/1000);
+}
     
